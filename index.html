@@ -1,12 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Tible Corp Site</title>
+<meta charset="UTF-8">
+<title>codelabo-de | Developer Lab</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Consolas, monospace;
+    background:#0b0f14;
+    color:#e6edf3;
+}
+
+/* ヘッダー */
+header{
+    background:#161b22;
+    padding:30px;
+    text-align:center;
+    border-bottom:1px solid #30363d;
+}
+
+h1{
+    font-size:40px;
+    color:#58a6ff;
+    margin:0;
+}
+
+.subtitle{
+    color:#8b949e;
+}
+
+/* セクション */
+section{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+}
+
+.card{
+    background:#161b22;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:10px;
+    border:1px solid #30363d;
+}
+
+/* ボタン */
+.button{
+    display:inline-block;
+    padding:12px 25px;
+    background:#238636;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    transition:0.2s;
+}
+
+.button:hover{
+    background:#2ea043;
+}
+
+/* フッター */
+footer{
+    text-align:center;
+    padding:20px;
+    color:#8b949e;
+    border-top:1px solid #30363d;
+}
+</style>
 </head>
+
 <body>
-  <h1>こんにちは — Tible Corpのサイト</h1>
-  <p>このページは GitHub Pages でホストされています、tible corpのページはここではありません。</p>
+
+<header>
+<h1>codelabo-de</h1>
+<div class="subtitle">Creative Coding Laboratory</div>
+</header>
+
+<section>
+
+<div class="card">
+<h2>About</h2>
+<p>
+codelabo-de は、プログラミング・Web開発・3D技術などを研究する
+開発者ラボです。  
+HTML、JavaScript、WebGL、Three.jsなどを使った
+実験的プロジェクトを公開しています。
+</p>
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+<p>
+現在公開されている主なプロジェクト:
+</p>
+
+<ul>
+<li>Tib3D - JavaScript製3Dライブラリ</li>
+<li>ブラウザOS 実験</li>
+<li>WebGL グラフィック実験</li>
+<li>開発者向けツール</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Open Source</h2>
+<p>
+codelabo-de のプロジェクトは GitHub で公開されています。
+コードを見たり、改造したり、自由に実験できます。
+</p>
+
+<a class="button" href="https://github.com/codelabo-de" target="_blank">
+GitHubを見る
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 codelabo-de Developer Lab
+</footer>
+
 </body>
 </html>
